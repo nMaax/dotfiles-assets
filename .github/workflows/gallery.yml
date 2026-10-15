@@ -51,6 +51,11 @@ jobs:
               files=$(for f in wallpapers/*; do if [ "$(section "$(basename "$f")")" = "$s" ]; then echo "$f"; fi; done)
               [ -z "$files" ] && continue
               printf '\n## %s\n\n' "$s"
+              if [ "$s" = "WALLHACK" ]; then
+                echo "> Stills of [WALLHACK](https://steamcommunity.com/workshop/browse/?appid=431960&searchtext=WALLHACK) Wallpaper Engine wallpapers. All artwork © WALLHACK. Personal use only, please support the artist on Steam Workshop."
+                echo "> Per-wallpaper sources and 720p–4K sets are in the [wallhack-v1 release](https://github.com/nMaax/dotfiles-assets/releases/tag/wallhack-v1)."
+                echo
+              fi
               for f in $files; do
                 n=$(basename "$f")
                 echo "<a href=\"$f\"><img src=\"thumbnails/$n.jpg\" alt=\"$n\" title=\"$n\" width=\"32%\"></a>"
