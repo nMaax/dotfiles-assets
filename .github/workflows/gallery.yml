@@ -31,23 +31,23 @@ jobs:
             esac
           done
 
-      # Unmatched names land in Other, so a new wallpaper never goes missing
+      # Unmatched names land in Others, so a new wallpaper never goes missing
       - name: README
         run: |
           section() {
             case "$1" in
               wallhack-*) echo "WALLHACK" ;;
               lucy*|rei*|evelyn*|pink-lady*|cowboybeboop*|cyberpunk*|sao*|cubone*|red*|wanna-stay*) echo "Anime" ;;
-              hokusai*|gyarados*|neaben*|eclipse*) echo "Art" ;;
-              abstract*|cachy-*|space*|penguiiin*) echo "Abstract & Minimal" ;;
-              *) echo "Other" ;;
+              hokusai*|gyarados*|eclipse*) echo "Art" ;;
+              abstract*|cachy-*|neaben*) echo "Abstract" ;;
+              *) echo "Others" ;;
             esac
           }
           {
             echo "# Wallpapers"
             echo
             echo "$(ls wallpapers | wc -l) wallpapers. Click a thumbnail for the full file; ▶ marks a video."
-            for s in "Anime" "WALLHACK" "Art" "Abstract & Minimal" "Other"; do
+            for s in "Anime" "WALLHACK" "Art" "Abstract" "Others"; do
               files=$(for f in wallpapers/*; do if [ "$(section "$(basename "$f")")" = "$s" ]; then echo "$f"; fi; done)
               [ -z "$files" ] && continue
               printf '\n## %s\n\n' "$s"
