@@ -1,6 +1,6 @@
 # Wallpapers
 
-Click a thumbnail for the full file; ▶ marks a video.
+65 wallpapers. Click a thumbnail for the full file; ▶ marks a video.
 
 ## Anime
 
@@ -27,6 +27,9 @@ Click a thumbnail for the full file; ▶ marks a video.
 <a href="wallpapers/wanna-stay-at-your-house.png"><img src="thumbnails/wanna-stay-at-your-house.png.jpg" alt="wanna-stay-at-your-house.png" title="wanna-stay-at-your-house.png" width="32%"></a>
 
 ## WALLHACK
+
+> Stills of [WALLHACK](https://steamcommunity.com/workshop/browse/?appid=431960&searchtext=WALLHACK) Wallpaper Engine wallpapers. All artwork © WALLHACK. Personal use only, please support the artist on Steam Workshop.
+> Per-wallpaper sources and 720p–4K sets are in the [wallhack-v1 release](https://github.com/nMaax/dotfiles-assets/releases/tag/wallhack-v1).
 
 <a href="wallpapers/wallhack-arcade-twins-portrait.jpg"><img src="thumbnails/wallhack-arcade-twins-portrait.jpg.jpg" alt="wallhack-arcade-twins-portrait.jpg" title="wallhack-arcade-twins-portrait.jpg" width="32%"></a>
 <a href="wallpapers/wallhack-arcade-twins-red.jpg"><img src="thumbnails/wallhack-arcade-twins-red.jpg.jpg" alt="wallhack-arcade-twins-red.jpg" title="wallhack-arcade-twins-red.jpg" width="32%"></a>
