@@ -62,13 +62,8 @@
 <a href="wallpapers/hokusai2.jpg"><img src="thumbnails/hokusai2.jpg.jpg" alt="hokusai2.jpg" title="hokusai2.jpg" width="32%"></a>
 <a href="wallpapers/hokusai3.png"><img src="thumbnails/hokusai3.png.jpg" alt="hokusai3.png" title="hokusai3.png" width="32%"></a>
 <a href="wallpapers/hokusai4.png"><img src="thumbnails/hokusai4.png.jpg" alt="hokusai4.png" title="hokusai4.png" width="32%"></a>
-<a href="wallpapers/neaben1.jpg"><img src="thumbnails/neaben1.jpg.jpg" alt="neaben1.jpg" title="neaben1.jpg" width="32%"></a>
-<a href="wallpapers/neaben2.jpg"><img src="thumbnails/neaben2.jpg.jpg" alt="neaben2.jpg" title="neaben2.jpg" width="32%"></a>
-<a href="wallpapers/neaben3.jpg"><img src="thumbnails/neaben3.jpg.jpg" alt="neaben3.jpg" title="neaben3.jpg" width="32%"></a>
-<a href="wallpapers/neaben4.jpg"><img src="thumbnails/neaben4.jpg.jpg" alt="neaben4.jpg" title="neaben4.jpg" width="32%"></a>
-<a href="wallpapers/neaben5.jpg"><img src="thumbnails/neaben5.jpg.jpg" alt="neaben5.jpg" title="neaben5.jpg" width="32%"></a>
 
-## Abstract & Minimal
+## Abstract
 
 <a href="wallpapers/abstract.png"><img src="thumbnails/abstract.png.jpg" alt="abstract.png" title="abstract.png" width="32%"></a>
 <a href="wallpapers/abstract1.png"><img src="thumbnails/abstract1.png.jpg" alt="abstract1.png" title="abstract1.png" width="32%"></a>
@@ -76,5 +71,13 @@
 <a href="wallpapers/abstract3.png"><img src="thumbnails/abstract3.png.jpg" alt="abstract3.png" title="abstract3.png" width="32%"></a>
 <a href="wallpapers/cachy-premium-detail.jpg"><img src="thumbnails/cachy-premium-detail.jpg.jpg" alt="cachy-premium-detail.jpg" title="cachy-premium-detail.jpg" width="32%"></a>
 <a href="wallpapers/cachy-premium.jpg"><img src="thumbnails/cachy-premium.jpg.jpg" alt="cachy-premium.jpg" title="cachy-premium.jpg" width="32%"></a>
+<a href="wallpapers/neaben1.jpg"><img src="thumbnails/neaben1.jpg.jpg" alt="neaben1.jpg" title="neaben1.jpg" width="32%"></a>
+<a href="wallpapers/neaben2.jpg"><img src="thumbnails/neaben2.jpg.jpg" alt="neaben2.jpg" title="neaben2.jpg" width="32%"></a>
+<a href="wallpapers/neaben3.jpg"><img src="thumbnails/neaben3.jpg.jpg" alt="neaben3.jpg" title="neaben3.jpg" width="32%"></a>
+<a href="wallpapers/neaben4.jpg"><img src="thumbnails/neaben4.jpg.jpg" alt="neaben4.jpg" title="neaben4.jpg" width="32%"></a>
+<a href="wallpapers/neaben5.jpg"><img src="thumbnails/neaben5.jpg.jpg" alt="neaben5.jpg" title="neaben5.jpg" width="32%"></a>
+
+## Others
+
 <a href="wallpapers/penguiiin.png"><img src="thumbnails/penguiiin.png.jpg" alt="penguiiin.png" title="penguiiin.png" width="32%"></a>
 <a href="wallpapers/space1.png"><img src="thumbnails/space1.png.jpg" alt="space1.png" title="space1.png" width="32%"></a>
