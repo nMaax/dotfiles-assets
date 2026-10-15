@@ -47,6 +47,8 @@ jobs:
             echo "# Wallpapers"
             echo
             echo "$(ls wallpapers | wc -l) wallpapers. Click a thumbnail for the full file; ▶ marks a video."
+            echo
+            echo "> All artwork belongs to its respective artists and is shared here for personal use only. Please support the original creators. If you are an author and want something credited or removed, [open an issue](https://github.com/nMaax/dotfiles-assets/issues)."
             for s in "Anime" "WALLHACK" "Art" "Abstract" "Others"; do
               files=$(for f in wallpapers/*; do if [ "$(section "$(basename "$f")")" = "$s" ]; then echo "$f"; fi; done)
               [ -z "$files" ] && continue
