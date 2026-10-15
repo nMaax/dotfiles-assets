@@ -2,6 +2,8 @@
 
 65 wallpapers. Click a thumbnail for the full file; ▶ marks a video.
 
+> All artwork belongs to its respective artists and is shared here for personal use only. Please support the original creators. If you are an author and want something credited or removed, [open an issue](https://github.com/nMaax/dotfiles-assets/issues).
+
 ## Anime
 
 <a href="wallpapers/cowboybeboop1.png"><img src="thumbnails/cowboybeboop1.png.jpg" alt="cowboybeboop1.png" title="cowboybeboop1.png" width="32%"></a>
