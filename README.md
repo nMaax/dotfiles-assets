@@ -1,6 +1,6 @@
 # Wallpapers
 
-65 wallpapers. Click a thumbnail for the full file; ▶ marks a video.
+Click a thumbnail for the full file; ▶ marks a video.
 
 ## Anime
 
