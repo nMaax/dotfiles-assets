@@ -24,22 +24,37 @@ jobs:
           for f in wallpapers/*; do
             t="thumbnails/$(basename "$f").jpg"
             case "$f" in
-              *.mp4|*.webm|*.mkv) ffmpeg -loglevel error -ss 1 -i "$f" -frames:v 1 -vf scale=480:-2 "$t" ;;
-              *) convert "$f[0]" -strip -thumbnail 480x -quality 82 "$t" ;;
+              *.mp4|*.webm|*.mkv)
+                ffmpeg -loglevel error -ss 1 -i "$f" -frames:v 1 -vf "scale=480:270:force_original_aspect_ratio=increase,crop=480:270" "$t"
+                convert "$t" -fill "rgba(0,0,0,0.55)" -draw "circle 240,135 240,172" -fill white -draw "polygon 229,117 229,153 260,135" -quality 82 "$t" ;;
+              *) convert "$f[0]" -strip -thumbnail "480x270^" -gravity center -extent 480x270 -quality 82 "$t" ;;
             esac
           done
 
+      # Unmatched names land in Other, so a new wallpaper never goes missing
       - name: README
         run: |
+          section() {
+            case "$1" in
+              wallhack-*) echo "WALLHACK" ;;
+              lucy*|rei*|evelyn*|pink-lady*|cowboybeboop*|cyberpunk*|sao*|cubone*|red*|wanna-stay*) echo "Anime" ;;
+              hokusai*|gyarados*|neaben*|eclipse*) echo "Art" ;;
+              abstract*|cachy-*|space*|penguiiin*) echo "Abstract & Minimal" ;;
+              *) echo "Other" ;;
+            esac
+          }
           {
             echo "# Wallpapers"
             echo
             echo "$(ls wallpapers | wc -l) wallpapers. Click a thumbnail for the full file; ▶ marks a video."
-            echo
-            for f in wallpapers/*; do
-              n=$(basename "$f")
-              case "$n" in *.mp4|*.webm|*.mkv) alt="▶ $n" ;; *) alt="$n" ;; esac
-              echo "<a href=\"$f\"><img src=\"thumbnails/$n.jpg\" alt=\"$alt\" title=\"$alt\" width=\"32%\"></a>"
+            for s in "Anime" "WALLHACK" "Art" "Abstract & Minimal" "Other"; do
+              files=$(for f in wallpapers/*; do if [ "$(section "$(basename "$f")")" = "$s" ]; then echo "$f"; fi; done)
+              [ -z "$files" ] && continue
+              printf '\n## %s\n\n' "$s"
+              for f in $files; do
+                n=$(basename "$f")
+                echo "<a href=\"$f\"><img src=\"thumbnails/$n.jpg\" alt=\"$n\" title=\"$n\" width=\"32%\"></a>"
+              done
             done
           } > README.md
 
